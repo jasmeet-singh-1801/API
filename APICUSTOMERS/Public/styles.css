@@ -1,0 +1,93 @@
+/* Apply Material Design styles here */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+.custom-table-header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.custom-header-cell {
+    font-size: 18px;
+}
+
+.custom-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #726d6d;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: #f0f8ff;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f6f69f;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #4757a6;
+    transition: background-color 0.3s;
+}
+
+/*form styling */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+    color: white;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the form inputs */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+
+/* Styling for the "Add New Customer" heading */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+
+/* Responsive styling for the form */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
